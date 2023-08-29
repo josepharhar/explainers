@@ -32,6 +32,7 @@ multiple>` and all other form-associated elements:
 
 When the `multiple` attribute is present, multiple `<option>`s may be selected
 at the same time.
+> **NOTE**: Should we show checkboxes or something for multi select?
 
 ## Pseudo-classes
 
