@@ -34,6 +34,14 @@ When the `multiple` attribute is present, multiple `<option>`s may be selected
 at the same time.
 > **NOTE**: Should we show checkboxes or something for multi select?
 
+### `size`
+
+`<listbox>` does **NOT** support the `size` attribute. While it is a convenient
+way to set the height of a `<select multiple>`, it would be difficult or
+impossible to implement for `<listbox>` due to circular layout. Authors should
+set an explicit size and relevant overflow properties on their own when using
+`<listbox>`.
+
 ## Pseudo-classes
 
 ### `:selected`
